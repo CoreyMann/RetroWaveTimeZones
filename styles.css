@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Permanent+Marker&family=Roboto&display=swap');
+
+body {
+  background-color: #390044;
+  background-image: linear-gradient(#FF3864 30px, #D40078 120px, #920075 220px, #2E2157 330px, #261447 450px, #0D0221);
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 375px;
+  height: 100vh;
+  margin: auto;
+  background-image: url("images/rwbg.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position-x: 50%;
+  background-position-y: 110px;
+}
+
+.title {
+  height: 60px;
+  padding: 8px;
+  -webkit-animation: fadein 4s ease-in; 
+  -moz-animation: fadein 4s ease-in;
+   -ms-animation: fadein 4s ease-in;
+    -o-animation: fadein 4s ease-in;
+       animation: fadein 4s ease-in;
+}
+
+h3 {
+  margin-top: -20px;
+  color: #FD3777;
+  font-family: 'Kaushan', cursive;
+  text-shadow: 1px 1px 4px #261447;
+}
+.calc-container {
+  margin: 20px 0 0 5px;
+  text-align: center;
+}
+
+form select, form select option {
+  padding: 3px 6px;
+  background-color: rgba(22, 3, 38, 1);
+  height: 30px;
+  color: #FD3777;
+  border: none;
+  outline: none;
+}
+
+form select.timezone {
+  width: 85%;
+}
+
+form input[type="text"] {
+  padding: 3px 6px;
+}
+
+dl {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+dl dt {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+dl dd {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  margin-left: 25px;
+}
+
+.result {
+  margin-left: 5px;
+  height: 30px;
+  font-size: 24px;
+  font-family: 'Permanent Marker', cursive;
+  text-align: left;
+  background: -webkit-linear-gradient(#C4DDFE 62%, #FFF 66%, #A6165E 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(-3px 2px #FFF);
+  -webkit-animation: fadein 4s; 
+  -moz-animation: fadein 4s;
+   -ms-animation: fadein 4s;
+    -o-animation: fadein 4s;
+       animation: fadein 4s;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.button input {
+  background-color: rgba(22, 3, 38, 1);
+  outline: none;
+  font-family: 'Kaushan', cursive;
+  border-radius: 50px;
+  border: transparent;
+  width: 120px;
+  height: 40px;
+  color: #FD3777;
+  font-size: 18px;
+  -webkit-transition: .4s;
+  transition: all .4s ease-in-out;
+  margin: 5px;
+  -webkit-animation: fadein 4s ease-in; 
+  -moz-animation: fadein 4s ease-in;
+   -ms-animation: fadein 4s ease-in;
+    -o-animation: fadein 4s ease-in;
+       animation: fadein 4s ease-in;
+}
+
+.button input:hover{
+  width: 124px;
+  height: 44px;
+  font-size: 20px;
+}
+
+.footer {
+  display: block;
+  margin-top: -10px;
+}
+
+ul{
+  padding: 0;
+}
+
+.social{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-around;
+  font-size: 40px;
+  height: 60px;
+  list-style-type: none;
+  margin-bottom: -10px;
+  -webkit-animation: fadein 4s ease-in; 
+  -moz-animation: fadein 4s ease-in;
+   -ms-animation: fadein 4s ease-in;
+    -o-animation: fadein 4s ease-in;
+       animation: fadein 4s ease-in;
+}
+
+.social>li>a {
+  color: #FD3777;
+  padding: 0 15px;
+  text-decoration: none;
+  -webkit-transition: font-size 0.4s;
+  transition: font-size 0.4s;
+}
+
+.social>li>a:hover {
+  font-size: 49px;
+}
+
+.copyright {
+  color: #FD3777;
+  font-family: 'Kaushan', cursive;
+  text-shadow: 1px 1px 4px #261447;
+  text-decoration: none;
+  -webkit-transition: font-size 0.4s;
+  transition: font-size 0.4s;
+  -webkit-animation: fadein 4s ease-in; 
+  -moz-animation: fadein 4s ease-in;
+   -ms-animation: fadein 4s ease-in;
+    -o-animation: fadein 4s ease-in;
+       animation: fadein 4s ease-in;
+}
+
+.copyright:hover{
+font-size: 20px;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
